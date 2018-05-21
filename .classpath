@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="lib/spring-expression-5.0.6.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/c3p0-0.9.1.2.jar"/>
 	<classpathentry kind="lib" path="lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-5.0.6.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

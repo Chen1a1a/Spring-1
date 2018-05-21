@@ -7,9 +7,10 @@
 	<bean id="address" class="com.atguigu.spring.beans.autowire.Address"
 		p:city = "BeiJing" p:street="HuiLongGuan"></bean>
 		
-	<bean id="address2" class="com.atguigu.spring.beans.autowire.Address"
-		p:city = "Dalian" p:street="ZhongShan"></bean>
-	
+	<!-- 
+		<bean id="address2" class="com.atguigu.spring.beans.autowire.Address"
+			p:city = "Dalian" p:street="ZhongShan"></bean>
+	 -->
 	
 	<bean id="car" class="com.atguigu.spring.beans.autowire.Car"
 		p:brand="Audi" p:price="300000"></bean>
