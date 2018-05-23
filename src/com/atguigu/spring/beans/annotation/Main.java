@@ -16,14 +16,15 @@ public class Main {
 //		TestObject to = (TestObject) ctx.getBean("testObject");
 //		System.out.println(to);
 //		
-//		UserController userController = (UserController) ctx.getBean("userController");
-//		System.out.println(userController);
+		UserController userController = (UserController) ctx.getBean("userController");
+		System.out.println(userController);
+		userController.execute();
 //		
 //		UserService userService = (UserService) ctx.getBean("userService");
 //		System.out.println(userService);
-		
-		UserRespository userRespository = (UserRespository) ctx.getBean("userRespository");
-		System.out.println(userRespository);
+//		
+//		UserRespository userRespository = (UserRespository) ctx.getBean("userRespository");
+//		System.out.println(userRespository);
 
 	}
 

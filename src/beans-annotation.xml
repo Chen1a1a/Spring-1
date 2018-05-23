@@ -15,8 +15,7 @@
 	
 	<!-- context:exclude-filter 子节点指定排除哪些指定表达式的组件 -->
 	<!-- context:include-filter 子节点指定包含哪些指定表达式的组件,该子节点需要use-default-filters配合使用 -->
-	<context:component-scan base-package="com.atguigu.spring.beans.annotation"
-		use-default-filters="false">
+	<context:component-scan base-package="com.atguigu.spring.beans.annotation">
 		<!-- 
 		<context:exclude-filter type="annotation" 
 			expression="org.springframework.stereotype.Repository"/>
@@ -29,7 +28,10 @@
 		 <context:exclude-filter type="assignable" 
 		 	expression="com.atguigu.spring.beans.annotation.repository.UserRespository"/>
 		  -->
+		  <!-- 
 		  <context:include-filter type="assignable" 
 		  	expression="com.atguigu.spring.beans.annotation.repository.UserRespository"/>
+		   -->
+		   
 	</context:component-scan>
 </beans>
